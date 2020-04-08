@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Передаточные числа Suzuki Jimny</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <style>
+        /* @formatter:off */
+        .jimny-1 .jimny-gen { background: #fa978d; }
+        .jimny-2 .jimny-gen { background: #fffa67; }
+        .jimny-3 .jimny-gen { background: #88f94f; }
+        .jimny-4 .jimny-gen { background: #57c1ff; }
+        .jimny-b { border: 2px solid #000000 !important; }
+        .jimny-top, .jimny-top th, .jimny-top td { border-top: 2px solid #000000 !important; }
+        .jimny-bot, .jimny-bot th, .jimny-bot td { border-bottom: 2px solid #000000 !important; }
+        .jimny-left, .jimny-left th, .jimny-left td { border-left: 2px solid #000000 !important; }
+        .jimny-right, .jimny-right th, .jimny-right td { border-right: 2px solid #000000 !important; }
+        /* @formatter:on */
+    </style>
+</head>
+<body class="py-4">
+<div class="x-container">
+    <h1>Передаточные числа Suzuki Jimny</h1>
+
+    <table class="table table-bordered table-sm">
+        <thead class="jimny-b">
+        <tr>
+            <th rowspan="2" data-type="model" class="jimny-bot">Кузов / Модель</th>
+            <th rowspan="2" data-type="market" class="jimny-bot">Рынок</th>
+            <th rowspan="2" data-type="restyle" class="jimny-bot jimny-right">Рестайлинг</th>
+            <th colspan="3" data-type="engine" class="jimny-left jimny-right">Двигатель</th>
+            <th colspan="8" data-type="transmission" class="jimny-left jimny-right">Трансмиссия</th>
+            <th colspan="4" data-type="tranfer" class="jimny-left jimny-right">Раздатка</th>
+            <th colspan="5" data-type="differential" class="jimny-left jimny-right">Редуктор</th>
+            <th rowspan="2" data-type="comment" class="jimny-bot jimny-left">Комментарий</th>
+        </tr>
+        <tr class="jimny-bot">
+            <th data-type="e-model" class="jimny-left">Модель</th>
+            <th data-type="e-volume">Объем</th>
+            <th data-type="e-cyl" class="jimny-right">L/V</th>
+            <th data-type="tm-type" class="jimny-left">Тип</th>
+            <th data-type="tm-model">Модель</th>
+            <th data-type="tm-1">1</th>
+            <th data-type="tm-2">2</th>
+            <th data-type="tm-3">3</th>
+            <th data-type="tm-4">4</th>
+            <th data-type="tm-5">5</th>
+            <th data-type="tm-r" class="jimny-right">R</th>
+            <th data-type="tf-model" class="jimny-left">Модель</th>
+            <th data-type="tf-hi">Hi</th>
+            <th data-type="tf-low">Low</th>
+            <th data-type="tf-sensor" class="jimny-right">Датчик</th>
+            <th data-type="d-gset" class="jimny-left">ГП</th>
+            <th data-type="d-tooth">Зубы</th>
+            <th colspan="2" data-type="d-front-sku">Передний размер и артикул</th>
+            <th data-type="d-rear" class="jimny-right">Задний артикул</th>
+        </tr>
+        </thead>
+
+        <tbody id="ON360" class="jimny-0 jimny-b">
+        <tr>
+            <td data-type="model">ON360</td>
+            <td data-type="market">JDM</td>
+            <td data-type="restyle">HopeStar</td>
+            <td data-type="e-model">ME24D</td>
+            <td data-type="e-volume">0.359</td>
+            <td data-type="e-cyl">L2</td>
+            <td colspan="17" data-type="none">&nbsp;</td>
+            <td data-type="comment">1968</td>
+        </tr>
+        </tbody>
+
+        <tbody class="jimny-1 jimny-b">
+        <tr class="jimny-gen">
+            <th colspan="20" class="text-center" data-type="generation-name">1 поколение
+                1970-1983
+            </th>
+            <th colspan="4"></th>
+        </tr>
+        </tbody>
+        <tbody id="LJ10" class="jimny-b">
+        <tr>
+            <td data-type="model">LJ10</td>
+            <td data-type="market">JDM</td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model">FB/L50</td>
+            <td data-type="e-volume">0.359</td>
+            <td data-type="e-cyl">L2</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.683</td>
+            <td data-type="tm-2">2.218</td>
+            <td data-type="tm-3">1.477</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">3.683</td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi">1.744</td>
+            <td data-type="tf-low">2.975</td>
+            <td data-type="tf-sensor">—</td>
+            <td data-type="d-gset">5.667</td>
+            <td data-type="d-tooth">51/9</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1970-1972</td>
+        </tr>
+        </tbody>
+        <tbody id="LJ20" class="jimny-b">
+        <tr>
+            <td data-type="model">LJ20</td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+        <tbody id="SJ10_LJ50_55" class="jimny-b">
+        <tr id="SJ10">
+            <td data-type="model">SJ10</td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        <tr id="LJ50_55">
+            <td data-type="model">LJ50/55</td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+        <tbody id="SJ20_LJ80_81" class="jimny-b">
+        <tr id="SJ20">
+            <td data-type="model">SJ20</td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        <tr id="LJ80_81">
+            <td data-type="model">LJ80/81</td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+
+        <tbody class="jimny-2 jimny-b"></tbody>
+
+        <tbody class="jimny-3 jimny-b"></tbody>
+
+        <tbody class="jimny-4 jimny-b">
+        <tr class="jimny-gen">
+            <th colspan="20" class="text-center" data-type="generation-name">
+                4 поколение 2018+ (минигелик)
+            </th>
+            <th class="small text-nowrap">все реверсивные ↓</th>
+            <th></th>
+            <th class="small text-nowrap">все 10/крупные ↓</th>
+            <th class="small text-nowrap">← мелкие 6.5", крупные 7"</th>
+        </tr>
+        </tbody>
+        <tbody id="JB64" class="jimny-b">
+        <tr>
+            <td rowspan="2" data-type="model">JB64</td>
+            <td rowspan="2"  data-type="market">JDM</td>
+            <td rowspan="2"  data-type="restyle">—</td>
+            <td rowspan="2"  data-type="e-model">R06A</td>
+            <td rowspan="2"  data-type="e-volume">0.658</td>
+            <td rowspan="2"  data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model text-danger">?</td>
+            <td data-type="tm-1">5.809</td>
+            <td data-type="tm-2">3.433</td>
+            <td data-type="tm-3">2.171</td>
+            <td data-type="tm-4">1.354</td>
+            <td data-type="tm-5">1.000</td>
+            <td data-type="tm-r">5.861</td>
+            <td rowspan="2" data-type="tf-model">ручная 3.1</td>
+            <td rowspan="2" data-type="tf-hi">1.320</td>
+            <td rowspan="2" data-type="tf-low">2.643</td>
+            <td rowspan="2" data-type="tf-sensor">ESP</td>
+            <td data-type="d-gset">3.818</td>
+            <td data-type="d-tooth">42/11</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td rowspan="2" data-type="comment">раздатка как с прошлого поколения, но ручная и с изменениями</td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">TW-40LS</td>
+            <td data-type="tm-1">2.875</td>
+            <td data-type="tm-2">1.568</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">0.696</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.300</td>
+            <td data-type="d-gset">5.375</td>
+            <td data-type="d-tooth">43/8</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+        </tr>
+        </tbody>
+        <tbody id="JB74" class="jimny-b">
+        <tr>
+            <td rowspan="2" data-type="model">JB74 / A6G415</td>
+            <td rowspan="2" data-type="market">J+EU</td>
+            <td rowspan="2" data-type="restyle">—</td>
+            <td rowspan="2" data-type="e-model">K15B</td>
+            <td rowspan="2" data-type="e-volume">1.462</td>
+            <td rowspan="2" data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model">78R0</td>
+            <td data-type="tm-1">4.425</td>
+            <td data-type="tm-2">2.304</td>
+            <td data-type="tm-3">1.674</td>
+            <td data-type="tm-4">1.190</td>
+            <td data-type="tm-5">1.000</td>
+            <td data-type="tm-r">5.151</td>
+            <td data-type="tf-model" class="text-nowrap">ручная 3.2</td>
+            <td data-type="tf-hi">1.000</td>
+            <td data-type="tf-low">2.002</td>
+            <td rowspan="2" data-type="tf-sensor">ESP</td>
+            <td data-type="d-gset">4.09</td>
+            <td data-type="d-tooth">45/11</td>
+            <td rowspan="2" data-type="d-front">10/крупный</td>
+            <td data-type="d-f-sku">27300-77880</td>
+            <td data-type="d-rear">27301-77810</td>
+            <td rowspan="2" data-type="comment">раздатка как с прошлого поколения, но ручная и с изменениями</td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model" class="text-nowrap">TW-40LS 78R1</td>
+            <td data-type="tm-1">2.875</td>
+            <td data-type="tm-2">1.568</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">0.696</td>
+            <td data-type="tm-5">TCC+</td>
+            <td data-type="tm-r">2.300</td>
+            <td data-type="tf-model" class="text-nowrap">ручная 3.1</td>
+            <td data-type="tf-hi">1.320</td>
+            <td data-type="tf-low">2.643</td>
+            <td data-type="d-gset">4.3</td>
+            <td data-type="d-tooth">43/10</td>
+            <td data-type="d-f-sku" class="text-nowrap">27300-77890</td>
+            <td data-type="d-rear" class="text-nowrap">27301-77820</td>
+        </tr>
+        </tbody>
+
+        <!--
+        <tbody id="" class="jimny-b">
+        <tr>
+            <td data-type="model"></td>
+            <td data-type="market"></td>
+            <td data-type="restyle"></td>
+            <td data-type="e-model"></td>
+            <td data-type="e-volume"></td>
+            <td data-type="e-cyl"></td>
+            <td data-type="tm-type"></td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor"></td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-f-sku"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tbody>
+        -->
+
+        <tfoot class="jimny-top">
+        <tr>
+            <td colspan="6" data-type="gap">&nbsp;</td>
+            <td colspan="8" data-type="transmission">
+                TCC — жесткая блокировка гидротрансформатора, TCC+ плавная блокировка гидротрансформатора
+            </td>
+            <td colspan="10" data-type="gap">&nbsp;</td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
