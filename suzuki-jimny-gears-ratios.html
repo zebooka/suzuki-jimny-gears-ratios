@@ -10,42 +10,45 @@
             crossorigin="anonymous"></script>
     <style>
         /* @formatter:off */
+        body { font-size: 0.8rem; }
+        .jimny th, .jimny td { border: 1px solid #cccccc; }
         .jimny thead th { border-width: 1px; }
         .jimny thead, .jimny tbody { border: 2px solid #000000 !important; }
+
         .jimny thead tr:last-child th,
         .jimny thead th[data-type="model"],
         .jimny thead th[data-type="market"],
         .jimny thead th[data-type="restyle"],
-        .jimny thead th[data-type="comment"] { border-bottom: 2px solid #000000 !important; }
-        
-        .jimny thead th[data-type="engine"],
-        .jimny thead th[data-type="e-model"],
-        .jimny thead th[data-type="transmission"],
-        .jimny thead th[data-type="tm-type"],
-        .jimny thead th[data-type="transfer"],
-        .jimny thead th[data-type="tf-model"],
-        .jimny thead th[data-type="differential"],
-        .jimny thead th[data-type="d-gset"],
-        .jimny thead th[data-type="comment"] { border-left: 2px solid #000000 !important; }
-        
+        .jimny thead th[data-type="comment"]
+        { border-bottom: 2px solid #000000 !important; }
+
+        .jimny thead th[data-type="model"],
+        .jimny thead th[data-type="market"],
         .jimny thead th[data-type="restyle"],
         .jimny thead th[data-type="engine"],
-        .jimny thead th[data-type="e-cyl"],
         .jimny thead th[data-type="transmission"],
-        .jimny thead th[data-type="tm-r"],
         .jimny thead th[data-type="transfer"],
-        .jimny thead th[data-type="tf-sensor"],
         .jimny thead th[data-type="differential"],
-        .jimny thead th[data-type="d-rear"] { border-right: 2px solid #000000 !important; }
+        .jimny thead th[data-type="comment"]
+        { border-left: 2px solid #000000 !important; border-right: 2px solid #000000 !important; }
+
+        .jimny thead th[data-type="e-model"],
+        .jimny thead th[data-type="tm-type"],
+        .jimny thead th[data-type="tf-model"],
+        .jimny thead th[data-type="d-gset"]
+        { border-left: 2px solid #000000 !important; }
+
+        .jimny thead th[data-type="e-cyl"],
+        .jimny thead th[data-type="tm-r"],
+        .jimny thead th[data-type="tf-sensor"],
+        .jimny thead th[data-type="d-rear"]
+        { border-right: 2px solid #000000 !important; }
 
         .jimny-1 tr { background: #fa978d; }
-        .jimny-2 tr { background: #fffa67; }
+        .jimny-2 tr { background: #fce331; }
         .jimny-3 tr { background: #88f94f; }
         .jimny-4 tr { background: #57c1ff; }
-        .jimny-1 th,
-        .jimny-2 th,
-        .jimny-3 th,
-        .jimny-4 th { border: 0; white-space: nowrap; vertical-align: center; }
+        .jimny-1 th, .jimny-2 th, .jimny-3 th, .jimny-4 th { border: 0; white-space: nowrap; vertical-align: center; }
 
         .jimny td[data-type="e-model"],
         .jimny td[data-type="tm-model"],
@@ -54,7 +57,6 @@
         .jimny td[data-type="tf-sensor"],
         .jimny td[data-type="d-front"],
         .jimny td[data-type="d-read"] { white-space: nowrap; }
-
         .jimny td[data-type="comment"] { min-width: 300px; }
         /* @formatter:on */
     </style>
@@ -263,17 +265,452 @@
         </tr>
         </tbody>
 
-        <tbody class="jimny-2"></tbody>
+        <tbody class="jimny-2">
+        <tr class="jimny-gen">
+            <th colspan="20" class="text-center" data-type="generation-name">
+                2 поколение 1981-1998 (самурай) …2019 в Индии (Марути)
+            </th>
+            <th colspan="3">мелкие 6.5", крупные 7"</th>
+            <th></th>
+        </tr>
+        </tbody>
+        <tbody id="SJ30">
+        <tr>
+            <td data-type="model">SJ30</td>
+            <td data-type="market">JDM</td>
+            <td data-type="restyle">—</td>
+            <td data-type="e-model">LJ50</td>
+            <td data-type="e-volume">0.539</td>
+            <td data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.834</td>
+            <td data-type="tm-2">2.358</td>
+            <td data-type="tm-3">1.542</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">4.026</td>
+            <td data-type="tf-model">некитуемая</td>
+            <td data-type="tf-hi">1.741</td>
+            <td data-type="tf-low">3.052</td>
+            <td data-type="tf-sensor">—</td>
+            <td data-type="d-gset">4.777</td>
+            <td data-type="d-tooth">43/9</td>
+            <td data-type="d-f-size">10/мелкий</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear">10/мелкий</td>
+            <td data-type="comment">1981-1987</td>
+        </tr>
+        </tbody>
+        <tbody id="JA71">
+        <tr>
+            <td data-type="model">JA71</td>
+            <td data-type="market">JDM</td>
+            <td data-type="restyle">—</td>
+            <td data-type="e-model">F5A</td>
+            <td data-type="e-volume">0.543</td>
+            <td data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">4.063</td>
+            <td data-type="tm-2">2.361</td>
+            <td data-type="tm-3">1.469</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.877</td>
+            <td data-type="tm-r">3.809</td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi">1.580</td>
+            <td data-type="tf-low">2.511</td>
+            <td data-type="tf-sensor">—</td>
+            <td data-type="d-gset">5.375</td>
+            <td data-type="d-tooth">43/8</td>
+            <td data-type="d-f-size">10/мелкий и <br/> 8/мелкий</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear">10/мелкий</td>
+            <td data-type="comment">1986-</td>
+        </tr>
+        </tbody>
+        <tbody id="JA11">
+        <tr>
+            <td rowspan="2" data-type="model">JA11</td>
+            <td rowspan="2" data-type="market">JDM</td>
+            <td rowspan="2" data-type="restyle">—</td>
+            <td rowspan="2" data-type="e-model">F6A</td>
+            <td rowspan="2" data-type="e-volume">0.657</td>
+            <td rowspan="2" data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">4.063</td>
+            <td data-type="tm-2">2.361</td>
+            <td data-type="tm-3">1.469</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.831</td>
+            <td data-type="tm-r">3.809</td>
+            <td rowspan="2" data-type="tf-model"></td>
+            <td rowspan="2" data-type="tf-hi">1.580</td>
+            <td rowspan="2" data-type="tf-low">2.511</td>
+            <td rowspan="2" data-type="tf-sensor">—</td>
+            <td data-type="d-gset">5.125</td>
+            <td data-type="d-tooth">41/8</td>
+            <td data-type="d-f-size">8/мелкий</td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1990-1995</td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">A172</td>
+            <td data-type="tm-1">2.727</td>
+            <td data-type="tm-2">1.536</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">—</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.222</td>
+            <td data-type="d-gset">4.09</td>
+            <td data-type="d-tooth">45/11</td>
+            <td data-type="d-f-size"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1992-</td>
+        </tr>
+        </tbody>
+        <tbody id="SJ40">
+        <tr>
+            <td rowspan="2" data-type="model">SJ40 / SJ410</td>
+            <td data-type="market">JDM+EU</td>
+            <td rowspan="2" data-type="restyle">—</td>
+            <td rowspan="2" data-type="e-model">F10A</td>
+            <td rowspan="2" data-type="e-volume">0.970</td>
+            <td rowspan="2" data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.163</td>
+            <td data-type="tm-2">1.945</td>
+            <td data-type="tm-3">1.421</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">3.321</td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi">1.589</td>
+            <td data-type="tf-low">2.557</td>
+            <td data-type="tf-sensor">—</td>
+            <td rowspan="2" data-type="d-gset">4.111</td>
+            <td rowspan="2" data-type="d-tooth">37/9</td>
+            <td rowspan="2" data-type="d-f-size">8/мелкий?</td>
+            <td rowspan="2" data-type="d-front"></td>
+            <td rowspan="2" data-type="d-rear"></td>
+            <td data-type="comment">1982-1988</td>
+        </tr>
+        <tr>
+            <td data-type="market">EU</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.163</td>
+            <td data-type="tm-2">1.945</td>
+            <td data-type="tm-3">1.421</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.795</td>
+            <td data-type="tm-r">3.321</td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi">1.580</td>
+            <td data-type="tf-low">2.511</td>
+            <td data-type="tf-sensor">—</td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+        <tbody id="SJ410D">
+        <tr>
+            <td data-type="model" class="text-danger">SJ410?</td>
+            <td data-type="market">EU</td>
+            <td data-type="restyle">—</td>
+            <td data-type="e-model">XUD9 TD</td>
+            <td data-type="e-volume">1.905</td>
+            <td data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1"></td>
+            <td data-type="tm-2"></td>
+            <td data-type="tm-3"></td>
+            <td data-type="tm-4"></td>
+            <td data-type="tm-5"></td>
+            <td data-type="tm-r"></td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi"></td>
+            <td data-type="tf-low"></td>
+            <td data-type="tf-sensor">—</td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-f-size"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1998-2003, Santana</td>
+        </tr>
+        </tbody>
+        <tbody id="JA12">
+        <tr>
+            <td data-type="model">JA12V/C</td>
+            <td rowspan="3" data-type="market">JDM</td>
+            <td rowspan="3" data-type="restyle"></td>
+            <td rowspan="3" data-type="e-model">F6A</td>
+            <td rowspan="3" data-type="e-volume">0.657</td>
+            <td rowspan="3" data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">4.063</td>
+            <td data-type="tm-2">2.361</td>
+            <td data-type="tm-3">1.469</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.831</td>
+            <td data-type="tm-r">3.809</td>
+            <td data-type="tf-model"></td>
+            <td data-type="tf-hi">1.580</td>
+            <td data-type="tf-low">2.511</td>
+            <td data-type="tf-sensor">—</td>
+            <td rowspan="3" data-type="d-gset">5.125</td>
+            <td rowspan="3" data-type="d-tooth">41/8</td>
+            <td rowspan="3" data-type="d-f-size">8/крупный, <br/> реверс</td>
+            <td rowspan="3" data-type="d-front"></td>
+            <td rowspan="3" data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" data-type="model">JA12W</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.478</td>
+            <td data-type="tm-2">2.021</td>
+            <td data-type="tm-3">1.352</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.790</td>
+            <td data-type="tm-r">3.260</td>
+            <td rowspan="2" data-type="tf-model"></td>
+            <td rowspan="2" data-type="tf-hi">1.320</td>
+            <td rowspan="2" data-type="tf-low">2.123</td>
+            <td rowspan="2" data-type="tf-sensor">—</td>
+            <td data-type="comment"></td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">A172</td>
+            <td data-type="tm-1">2.727</td>
+            <td data-type="tm-2">1.536</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">—</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.222</td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+        <tbody id="JA22">
+        <tr>
+            <td rowspan="2" data-type="model">JA22</td>
+            <td rowspan="2" data-type="market">JDM</td>
+            <td rowspan="2" data-type="restyle"></td>
+            <td rowspan="2" data-type="e-model">K6A</td>
+            <td rowspan="2" data-type="e-volume">0.658</td>
+            <td rowspan="2" data-type="e-cyl">L3</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.478</td>
+            <td data-type="tm-2">2.021</td>
+            <td data-type="tm-3">1.352</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.790</td>
+            <td data-type="tm-r">3.260</td>
+            <td rowspan="2" data-type="tf-model"></td>
+            <td rowspan="2" data-type="tf-hi">1.320</td>
+            <td rowspan="2" data-type="tf-low">2.123</td>
+            <td rowspan="2" data-type="tf-sensor">—</td>
+            <td rowspan="2" data-type="d-gset">5.125</td>
+            <td rowspan="2" data-type="d-tooth">41/8</td>
+            <td rowspan="2" data-type="d-f-size">8/крупный, <br/> реверс</td>
+            <td rowspan="2" data-type="d-front"></td>
+            <td rowspan="2" data-type="d-rear"></td>
+            <td data-type="comment"></td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">A172</td>
+            <td data-type="tm-1">2.727</td>
+            <td data-type="tm-2">1.536</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">—</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.222</td>
+            <td data-type="comment"></td>
+        </tr>
+        </tbody>
+        <tbody id="JA51">
+        <tr>
+            <td rowspan="5" data-type="model">JA51 / SJ413</td>
+            <td rowspan="2" data-type="market">EU</td>
+            <td rowspan="5" data-type="restyle"></td>
+            <td rowspan="4" data-type="e-model">G13A</td>
+            <td rowspan="4" data-type="e-volume">1.324</td>
+            <td rowspan="4" data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.652</td>
+            <td data-type="tm-2">1.947</td>
+            <td data-type="tm-3">1.423</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">3.466</td>
+            <td rowspan="5" data-type="tf-model"></td>
+            <td rowspan="5" data-type="tf-hi">1.409</td>
+            <td rowspan="5" data-type="tf-low">2.268</td>
+            <td rowspan="5" data-type="tf-sensor">—</td>
+            <td data-type="d-gset"></td>
+            <td data-type="d-tooth"></td>
+            <td data-type="d-f-size"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1984-1985?, 4-ступка МКПП</td>
+        </tr>
+        <tr>
+            <td rowspan="2" data-type="tm-type">MT</td>
+            <td rowspan="2" data-type="tm-model"></td>
+            <td rowspan="2" data-type="tm-1">3.652</td>
+            <td rowspan="2" data-type="tm-2">1.947</td>
+            <td rowspan="2" data-type="tm-3">1.423</td>
+            <td rowspan="2" data-type="tm-4">1.000</td>
+            <td rowspan="2" data-type="tm-5">0.795</td>
+            <td rowspan="2" data-type="tm-r">3.466</td>
+            <td data-type="d-gset">3.727</td>
+            <td data-type="d-tooth">41/11</td>
+            <td data-type="d-f-size"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">1984-1987</td>
+        </tr>
+        <tr>
+            <td data-type="market">JDM</td>
+            <td rowspan="2" data-type="d-gset">3.909</td>
+            <td rowspan="2" data-type="d-tooth">43/11</td>
+            <td rowspan="2" data-type="d-f-size">10/крупный</td>
+            <td rowspan="2" data-type="d-front"></td>
+            <td rowspan="2" data-type="d-rear"></td>
+            <td data-type="comment">1984-1988</td>
+        </tr>
+        <tr>
+            <td data-type="market">US</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.652</td>
+            <td data-type="tm-2">1.947</td>
+            <td data-type="tm-3">1.423</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.864</td>
+            <td data-type="tm-r">3.466</td>
+            <td data-type="comment">1988, северная америка, Samurai</td>
+        </tr>
+        <tr>
+            <td data-type="market">INDIA</td>
+            <td data-type="e-model">G13BB</td>
+            <td data-type="e-volume">1.298</td>
+            <td data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.652</td>
+            <td data-type="tm-2">1.947</td>
+            <td data-type="tm-3">1.423</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.795</td>
+            <td data-type="tm-r">3.466</td>
+            <td data-type="d-gset">3.727</td>
+            <td data-type="d-tooth">41/11</td>
+            <td data-type="d-f-size"></td>
+            <td data-type="d-front"></td>
+            <td data-type="d-rear"></td>
+            <td data-type="comment">Samurai 1990-2004, <br/> Maruti Gypsy -2019</td>
+        </tr>
+        </tbody>
+        <tbody id="JB31">
+        <tr>
+            <td rowspan="2" data-type="model">JB31</td>
+            <td rowspan="2" data-type="market">JDM</td>
+            <td rowspan="2" data-type="restyle"></td>
+            <td rowspan="2" data-type="e-model">G13B</td>
+            <td rowspan="2" data-type="e-volume">1.298</td>
+            <td rowspan="2" data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model"></td>
+            <td data-type="tm-1">3.652</td>
+            <td data-type="tm-2">1.947</td>
+            <td data-type="tm-3">1.423</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.795</td>
+            <td data-type="tm-r">3.466</td>
+            <td rowspan="2" data-type="tf-model"></td>
+            <td rowspan="2" data-type="tf-hi">1.409</td>
+            <td rowspan="2" data-type="tf-low">2.268</td>
+            <td rowspan="2" data-type="tf-sensor">—</td>
+            <td rowspan="2" data-type="d-gset">3.727</td>
+            <td rowspan="2" data-type="d-tooth">41/11</td>
+            <td rowspan="2" data-type="d-f-size">10/крупный</td>
+            <td rowspan="2" data-type="d-front"></td>
+            <td rowspan="2" data-type="d-rear"></td>
+            <td rowspan="2" data-type="comment">1993-1995</td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">A172</td>
+            <td data-type="tm-1">2.727</td>
+            <td data-type="tm-2">1.536</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">—</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.222</td>
+        </tr>
+        </tbody>
+        <tbody id="JB32">
+        <tr>
+            <td rowspan="2" data-type="model">JB32 / SJ80</td>
+            <td rowspan="2" data-type="market">JDM+EU</td>
+            <td rowspan="2" data-type="restyle"></td>
+            <td rowspan="2" data-type="e-model">G13BB / <br/> G13BA</td>
+            <td rowspan="2" data-type="e-volume">1.298</td>
+            <td rowspan="2" data-type="e-cyl">L4</td>
+            <td data-type="tm-type">MT</td>
+            <td data-type="tm-model" class="text-danger">R7ME ?</td>
+            <td data-type="tm-1">3.652</td>
+            <td data-type="tm-2">1.947</td>
+            <td data-type="tm-3">1.423</td>
+            <td data-type="tm-4">1.000</td>
+            <td data-type="tm-5">0.864</td>
+            <td data-type="tm-r">3.466</td>
+            <td rowspan="2" data-type="tf-model"></td>
+            <td rowspan="2" data-type="tf-hi">1.320</td>
+            <td rowspan="2" data-type="tf-low">2.123</td>
+            <td rowspan="2" data-type="tf-sensor">—</td>
+            <td rowspan="2" data-type="d-gset">3.909</td>
+            <td rowspan="2" data-type="d-tooth">43/11</td>
+            <td rowspan="2" data-type="d-f-size">8/крупный, <br/>реверс</td>
+            <td rowspan="2" data-type="d-front"></td>
+            <td rowspan="2" data-type="d-rear"></td>
+            <td rowspan="2" data-type="comment">1995-1998</td>
+        </tr>
+        <tr>
+            <td data-type="tm-type">AT</td>
+            <td data-type="tm-model">A172</td>
+            <td data-type="tm-1">2.727</td>
+            <td data-type="tm-2">1.536</td>
+            <td data-type="tm-3">1.000</td>
+            <td data-type="tm-4">—</td>
+            <td data-type="tm-5">—</td>
+            <td data-type="tm-r">2.222</td>
+        </tr>
+        </tbody>
 
         <tbody class="jimny-3">
         <tr class="jimny-gen">
             <th colspan="20" class="text-center" data-type="generation-name">
                 3 поколение 1998-2018 (колобок) …2020 в Бразилии
             </th>
-            <th class="small">все реверсивные ↓</th>
+            <th>все реверсивные ↓</th>
             <th></th>
-            <th class="small">все 10/крупные ↓</th>
-            <th class="small">← мелкие 6.5", крупные 7"</th>
+            <th>все 10/крупные ↓</th>
+            <th>← мелкие 6.5", крупные 7"</th>
         </tr>
         </tbody>
         <tbody id="JB23">
@@ -298,7 +735,7 @@
             <td rowspan="2" data-type="tf-sensor">34960-81A20 (2)</td>
             <td rowspan="2" data-type="d-gset">5.375</td>
             <td rowspan="2" data-type="d-tooth">43/8</td>
-            <td rowspan="2" data-type="d-f-size">8/мелкий и  <br/> 10/мелкий,  люминь</td>
+            <td rowspan="2" data-type="d-f-size">8/мелкий и <br/> 10/мелкий, люминь</td>
             <td rowspan="2" data-type="d-front">27300-81830 и <br/> 27300-81860</td>
             <td rowspan="2" data-type="d-rear">27300-81840</td>
             <td rowspan="2" data-type="comment"></td>
@@ -332,7 +769,7 @@
             <td data-type="tf-sensor">34960-81A00 (0)</td>
             <td data-type="d-gset">4.3</td>
             <td data-type="d-tooth">43/10</td>
-            <td rowspan="2" data-type="d-f-size">10/мелкий,  люминь</td>
+            <td rowspan="2" data-type="d-f-size">10/мелкий, люминь</td>
             <td data-type="d-front">27300-76890</td>
             <td data-type="d-rear">27300-56880</td>
             <td rowspan="2" data-type="comment"></td>
@@ -575,10 +1012,10 @@
             <th colspan="20" class="text-center" data-type="generation-name">
                 4 поколение 2018+ (минигелик)
             </th>
-            <th class="small">все реверсивные ↓</th>
+            <th>все реверсивные ↓</th>
             <th></th>
-            <th class="small">все 10/крупные ↓</th>
-            <th class="small">← мелкие 6.5", крупные 7"</th>
+            <th>все 10/крупные ↓</th>
+            <th>← мелкие 6.5", крупные 7"</th>
         </tr>
         </tbody>
         <tbody id="JB64">
