@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Регионы Suzuki</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        /* @formatter:off */
+        body { font-size: 0.8rem; }
+        table.jimny { width: auto; }
+        .jimny th, .jimny td { border: 1px solid #cccccc; }
+        .jimny thead th { border-width: 1px; }
+        .jimny thead, .jimny tbody { border: 2px solid #000000 !important; }
+
+
+        .jimny td[data-type="rhd"] { background-color:#fa978d; }
+        /* @formatter:on */
+    </style>
+</head>
+<body class="py-4">
+<div class="container-fluid">
+    <h1>Регионы Suzuki</h1>
+    <small>Версия: 2020/04/29</small>
+
+    <table class="table table-bordered table-sm jimny">
+        <thead>
+        <tr><th data-type="e">Номер</th><th data-type="country">Страна/Регион</th><th data-type="hd">Руль</th></tr>
+        </thead>
+        <tbody>
+        <tr><td data-type="e">E00</td><td data-type="country">Япония (JDM)</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E01</td><td data-type="country">Экспорт (общий)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E02</td><td data-type="country">Великобритания</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E03</td><td data-type="country">США (за исключением Калифорнии)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E04</td><td data-type="country">Франция</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E05</td><td data-type="country">Африка (общий)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E06</td><td data-type="country">ЮАР</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E07</td><td data-type="country">Бахрейн</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E08</td><td data-type="country">Малайзия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E09</td><td data-type="country">Колумбия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E10</td><td data-type="country">Чили</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E11</td><td data-type="country">Экспорт 2 (общий)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E12</td><td data-type="country">Индонезия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E13</td><td data-type="country">Юго-Восточная Азия (общий)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E14</td><td data-type="country">Таиланд</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E15</td><td data-type="country">Финляндия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E16</td><td data-type="country">Норвегия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E17</td><td data-type="country">Швеция</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E18</td><td data-type="country">Швейцария</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E19</td><td data-type="country">Евросоюз?</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E20</td><td data-type="country">Кипр</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E21</td><td data-type="country">Бельгия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E22</td><td data-type="country">Германия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E23</td><td data-type="country">Восточный Камерун</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E24</td><td data-type="country">Австралия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E25</td><td data-type="country">Нидерланды/Голландия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E26</td><td data-type="country">Дания</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E27</td><td data-type="country">Новая Зеландия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E28</td><td data-type="country">Канада</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E29</td><td data-type="country">Португалия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E30</td><td data-type="country">Сингапур</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E31</td><td data-type="country">Филиппины</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E32</td><td data-type="country">Нигерия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E33</td><td data-type="country">США (Калифорния)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E34</td><td data-type="country">Италия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E35</td><td data-type="country">Гонконг</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E36</td><td data-type="country">Бангладеш</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E37</td><td data-type="country">Бразилия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E38</td><td data-type="country">Тайвань</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E39</td><td data-type="country">Австрия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E40</td><td data-type="country">Коста-Рика</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E41</td><td data-type="country">Греция</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E42</td><td data-type="country">Пакистан</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E43</td><td data-type="country">Саудовская Аравия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E44</td><td data-type="country">Марокко</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E45</td><td data-type="country">Египет</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E46</td><td data-type="country">Канарские острова</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E47</td><td data-type="country">ОАЭ</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E48</td><td data-type="country">Аргентина</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E49</td><td data-type="country">Южные Острова</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E50</td><td data-type="country">Китай</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E51</td><td data-type="country">Корея</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E52</td><td data-type="country">Шри Ланка</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E53</td><td data-type="country">Испания</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E54</td><td data-type="country">Израиль</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E55</td><td data-type="country">Оман</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E56</td><td data-type="country">Новая Каледония</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E57</td><td data-type="country">Мальта</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E58</td><td data-type="country">Южный Йемен</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E59</td><td data-type="country">Иордания</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E60</td><td data-type="country">Пуэрто-Рико</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E61</td><td data-type="country">Латинская Америка</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E62</td><td data-type="country">Доминика</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E63</td><td data-type="country">США (№3)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E64</td><td data-type="country">Уругвай</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E65</td><td data-type="country">Чешская республика</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E66</td><td data-type="country">Венгрия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E67</td><td data-type="country">Югославия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E68</td><td data-type="country">Ирландия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E69</td><td data-type="country">Северный Йемен</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E70</td><td data-type="country">Польша</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E71</td><td data-type="country">?</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E72</td><td data-type="country">Эквадор</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E73</td><td data-type="country">?</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E74</td><td data-type="country">Индия</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E75</td><td data-type="country">ECE1 (Великобритания, ЮАР, Австралия)</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E76</td><td data-type="country">ECE2 (Швеция, Германия, Австрия)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E77</td><td data-type="country">ECE3 (Финляндия, Норвегия, Швеция, Бельгия, Нидерланды/Голландия, Австрия, Испания)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E78</td><td data-type="country">ECE4 (Финляндия, Норвегия, Бельгия, Нидерланды/Голландия, Италия, Испания)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E79</td><td data-type="country">ECE5 (Норвегия, Бельгия, Испания)</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E80</td><td data-type="country">Словакия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E81</td><td data-type="country">Кения</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E82</td><td data-type="country">Хорватия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E84</td><td data-type="country">Словения</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E86</td><td data-type="country">Сирия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E87</td><td data-type="country">Турция</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E89</td><td data-type="country">Восточная Европа</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E90</td><td data-type="country">Россия</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E91</td><td data-type="country">Иран</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E92</td><td data-type="country">Парагвай</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E93</td><td data-type="country">Тринидад и Тобаго</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E94</td><td data-type="country">Барбадос</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">E95</td><td data-type="country">Венесуэла</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E96</td><td data-type="country">Перу</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E97</td><td data-type="country">Гватемала</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">E98</td><td data-type="country">Исландия</td><td data-type="lhd">LHD</td></tr>
+
+        <tr><td data-type="e">EF1</td><td data-type="country">Гвинея</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">EF2</td><td data-type="country">Карибские острова</td><td data-type="rhd">RHD</td></tr>
+        <tr><td data-type="e">EF3</td><td data-type="country">Карибские острова</td><td data-type="lhd">LHD</td></tr>
+        <tr><td data-type="e">EA3</td><td data-type="country">о. Мартиника</td><td data-type="lhd">LHD</td></tr>
+        </tbody>
+    </table>
+
+    E11 (EF2: CARIB’S-RHD),
+    E21 (EF1:GUINEA, EF3:CARIB’S-LHD),
+    E22 (EA3:MARTINICA, E18:SWEDEN, E19:BELGIUM),
+
+    <p>Спасибо Антону Малых за этот список. http://malykh.blogspot.com/2013/08/suzuki-e.html</p>
+
+</div>
+</body>
+</html>
