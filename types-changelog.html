@@ -9,6 +9,7 @@
         /* @formatter:off */
         body { font-size: 0.8rem; }
         section { margin: 30px 0 50px; }
+        table.table { width: auto; }
         .jimny th, .jimny td { border: 1px solid #cccccc; }
         .jimny thead th { border-width: 1px; }
         .jimny thead, .jimny tbody { border: 2px solid #000000 !important; }
@@ -56,7 +57,7 @@
 <body class="py-4">
 <div class="container-fluid">
     <h1>Версии и рестайлинг Suzuki Jimny</h1>
-    <small>Версия: 2020/04/20</small>
+    <small>Версия: 2020/09/17</small>
 
     <h2>JB33 / JB43 / SN413</h2>
     <section>
@@ -65,23 +66,25 @@
             <div class="col-md-8">
                 <ul>
                     <li>Тип 1 - первая версия производимого Джимни с двигателем 1.3 литра.</li>
-                    <li>Все машины с "33" на 7 и 8 позиции в VIN номере принадлежат к этому типу.
+                    <li>Все машины с кузовом JB33 (7 и 8 позиции в VIN номере) принадлежат к этому типу.
                         Код "33" означает, что у них установлен двигатель G13BB.
                     </li>
                 </ul>
             </div>
             <div class="col-md-4">
-                JSAFJA33V00100001... <br/>
-                JSAFJB33V00100001... <br/>
-                JSAFJB33VW4100001... <br/>
-                JSAFJB33VX0100001... <br/>
-                JSAFJB33VY0100001... <br/>
-                JSAFJB33VY4100001... <br/>
-                JS3JB33V#14100001... <br/>
-                JS3JB33V#X4100001... <br/>
-                JS3JB33V#Y4100001... <br/>
-                JB33V-100001... <br/>
-                JB33W-100001... <br/>
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJA33V00100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB33V00100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB33VW4100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB33VX0100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB33VY0100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB33VY4100001</td><td>...</td></tr>
+                    <tr><td>JS3JB33V#14100001</td><td>...</td></tr>
+                    <tr><td>JS3JB33V#X4100001</td><td>...</td></tr>
+                    <tr><td>JS3JB33V#Y4100001</td><td>...</td></tr>
+                    <tr><td>JB33V-100001</td><td>...</td></tr>
+                    <tr><td>JB33W-100001</td><td>...</td></tr>
+                </table>
             </div>
         </div>
 
@@ -91,26 +94,23 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Type 2 is the earliest type where vehicles with M13A petrol engine appear ("43" in 7th and 8th VIN
-                        character positions).</li>
-                    <li>Although the table 02 does not contain any JSAFJB33# VIN range, there could also be vehicles with G13BB
-                        engine in type 2.</li>
-                    <li>Basis for suspicion on the presence of G13BB engines - service manual for type 2 clearly mentions
-                        servicing information both for G13BB and M13A engine (service manuals for type 3 and later don't mention
-                        G13BB at all, only M13A).</li>
+                    <li>Тип 2 это первая версия с бензиновым двигателем M13A ("43" на 7 и 8 позициях VIN номера).</li>
+                    <li>В Европе M13A без VVT, в Японии с VVT.</li>
                 </ul>
             </div>
             <div class="col-md-4">
-                JSAFJA43V00100001	JSAFJA43V00140000
-                JSAFJB43V00100001	JSAFJB43V00140000
-                JSAFJB43V10100001	any higher JSAFJB43V10######
-                JSAFJB43V14100001	any higher JSAFJB43V14######
-                JSAFJB43V20100001	any higher JSAFJB43V20######
-                JSAFJB43V24100001	any higher JSAFJB43V24######
-                JSAFJB43VW0100001	any higher JSAFJB43VW#######
-                JS3JB43V#14100001	any higher JS3JB43V#14######
-                JS3JB43V#24100001	JS3JB43V#24140000
-                JB43W-100001	any higher JB43W-######
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJA43V00100001</td><td>... JSAFJA43V00140000</td></tr>
+                    <tr><td>JSAFJB43V00100001</td><td>... JSAFJB43V00140000</td></tr>
+                    <tr><td>JSAFJB43V10100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V14100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V20100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V24100001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43VW0100001</td><td>...</td></tr>
+                    <tr><td>JS3JB43V#14100001</td><td>...</td></tr>
+                    <tr><td>JS3JB43V#24100001</td><td>... JS3JB43V#24140000</td></tr>
+                    <tr><td>JB43W-100001</td><td>...</td></tr>
+                </table>
             </div>
         </div>
     </section>
@@ -119,18 +119,20 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Changes in type 3 are currently unknown. Contribute information if you know something!</li>
+                    <li>Изменения в типе 3 в данный момент не известны.</li>
                 </ul>
             </div>
             <div class="col-md-4">
-                JSAFJA43V00140001	JSAFJA43V00160000<br/>
-                JSAFJB43V00140001	JSAFJB43V00160000<br/>
-                JSAFJB43V20140001	any higher JSAFJB43V20######<br/>
-                JSAFJB43V24140001	any higher JSAFJB43V24######<br/>
-                JSAFJB43V30140001	JSAFJB43V30160000<br/>
-                JSAFJB43V34140001	JSAFJB43V34160000<br/>
-                JS3JB43V#24140001	any higher JS3JB43V#2#######<br/>
-                JS3JB43V#34140001	JS3JB43V#34160000<br/>
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJA43V00140001</td><td>... JSAFJA43V00160000</td></tr>
+                    <tr><td>JSAFJB43V00140001</td><td>... JSAFJB43V00160000</td></tr>
+                    <tr><td>JSAFJB43V20140001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V24140001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V30140001</td><td>... JSAFJB43V30160000</td></tr>
+                    <tr><td>JSAFJB43V34140001</td><td>... JSAFJB43V34160000</td></tr>
+                    <tr><td>JS3JB43V#24140001</td><td>...</td></tr>
+                    <tr><td>JS3JB43V#34140001</td><td>... JS3JB43V#34160000</td></tr>
+                </table>
             </div>
         </div>
     </section>
@@ -139,12 +141,15 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Type 4 is the earliest type where a diesel (DDiS) edition appears ("53" in 7th and 8th VIN character positions).</li>
-                    <li>Type 4 DDiS vehicles use older 48 kW non-intercooled K9K engine.</li>
-                    <li>Type 4 is the last type which uses manually shifted transfer box and old style (1st design) interior (dashboard, instrument panel, steering wheel, seats etc.).</li>
+                    <li>Появление дизельной версии (см. ниже).</li>
+                    <li>Тип 4 это последний тип использующий раздатку 1.32/2.145 с ручкой и понижением планетарным редуктором,
+                        а так же старый дизайн автомобиля (бампер, приборная панель, торпедо, руль, сиденья и т.п.).</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td></td><td></td></tr>
+                </table>
             </div>
         </div>
 
@@ -154,14 +159,20 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Type 5 is the earliest type which uses electrically ("push-button") shifted transfer box and new style (2nd design) interior (dashboard, instrument panel, steering wheel, seats etc.).</li>
-                    <li>Type 5 still uses 1st generation front bumper.</li>
-                    <li>Type 5 had a relatively short production time span, approximately only during the second half of 2005.</li>
-                    <li>Type 5 DDiS Jimnys still use older 48 kW non-intercooled K9K engine.</li>
-                    <li>There are definitely some "Type 5" style Jimnys with VVT engine (1st Gen bumper, new interior) [1] in the UK. The one we can confirm exists is a Spanish built soft-top which is very late registered (2006) so must have been old stock.</li>
+                    <li>Новая электронно-управляемая раздатка с передаточными 1.0/2.0 для машин с механикой на европейском рынке и
+                        с 1.32/2.64 для автомата (а так же для всех на японском рынке).
+                        Понижающий ряд выполнен через промежуточный вал, вместо планетарного редуктора.
+                        Блок управления раздаткой отдельный от блока вакуумных хабов.</li>
+                    <li>Новый дизайн интерьера (приборка, торпедо, руль, сиденья и т.п.)</li>
+                    <li>Тип 5 комплектуется первой версией переднего бампера.</li>
+                    <li>Производился очень не продолжительное время, примерно вторую половину 2005 года.</li>
+                    <li>Подтверждено существование европейских машин (в Великобритании) с типом 5 и M13A с VVT.</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td></td><td></td></tr>
+                </table>
             </div>
         </div>
 
@@ -171,13 +182,14 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Front bumper changed from 1st to 2nd generation design.</li>
-                    <li>For diesel (DDiS) Jimnys, the major change from type 5 to type 6 is the change of engine - from non-intercooled 48 kW K9K 700 to intercooled 63 kW K9K 266.</li>
-                    <li>"VVT" M13A petrol engine was possibly introduced in type 5, but it was certainly used in type 6.</li>
-                    <li>Table 06 (type 6) can be relied upon only in the "FROM VIN" column. All limits in the "TO VIN" column are currently unknown because type 6 was still the latest production type in the time when the source Suzuki documents were written in Q2 2007.</li>
+                    <li>Передний бампер нового дизайна (вторая версия).</li>
+                    <li>Двигатель M13A получил VVT в Европе (в Японии изначально с VVT, в арабских странах встречался (был) без VVT с этим типом).</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td></td><td></td></tr>
+                </table>
             </div>
         </div>
     </section>
@@ -186,11 +198,11 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Type 7 is the last type where DDiS (diesel) Jimnys were produced.</li>
-                    <li>4WD controller changed to enable (seemingly) direct shifting from 2WD to 4WD-L and vice versa. The actual technical process still is the same (through 4WD-H), just the sequence is automatic.</li>
+                    <li>Единый контроллер полного привода 4WD. Позволяет прямое переключение между режимами 2WD и 4WD-L (как следствие — более сложное удаление вакуумных хабов при установке механических).</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                &nbsp;
             </div>
         </div>
     </section>
@@ -199,10 +211,11 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Changes in type 8 are still unknown. Contribute information if you know something!</li>
+                    <li>Изменения в типе 8 в данный момент не известны.</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                &nbsp;
             </div>
         </div>
     </section>
@@ -211,21 +224,21 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Front bumper changed from 2nd to 3rd generation design.</li>
-                    <li>New front hood (bonnet) and front grille design.</li>
-                    <li>The front grille is separate from the bonnet and looks completely different than the old grille.</li>
-                    <li>Bonnet has an integrated fake power bulge (different than the fake bulge on DDiS bonnets).</li>
-                    <li>Additional side impact reinforcements in side doors.</li>
-                    <li>New steering wheel design.</li>
-                    <li>New seats.</li>
-                    <li>Electronic stability control (ESC / ESP) function introduced as an optional feature (not verified that it exists at all in type 9!).</li>
-                    <li>If ESC/ESP is fitted, it can be turned on/off by operating a switch located in the same switch cluster with the rear fog lamp switch and (if present) front fog lamps switch.</li>
+                    <li>Третья версия дизайна переднего бампера.</li>
+                    <li>Новый дизайн капота и решетки радиатора. </li>
+                    <li>Решетка радиатора теперь отдельный элемент.</li>
+                    <li>Новые высокие передние крылья (как и капот).</li>
+                    <li>Форсунки омывателя лобового стекла переехали с капота на жабо.</li>
+                    <li>Появилась ноздря на капоте с заглушкой (ради унификации с кузовом JB23 и для более агрессивного стиля).</li>
+                    <li>Усиление в дверях на случай бокового удара.</li>
+                    <li>Новый дизайн рулевого колеса.</li>
+                    <li>Новые сидения.</li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <ul>
-                    <li>JSAFJB43V00560001...</li>
-                </ul>
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJB43V00560001</td><td>...</td></tr>
+                </table>
             </div>
         </div>
     </section>
@@ -234,12 +247,14 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>New instrument panel design.</li>
-                    <li>Electronic stability control (ESC / ESP) function introduced as a mandatory feature in certain countries.</li>
-                    <li>ESP/ESC can be turned on/off by operating a switch located in the same switch cluster with the rear fog lamp switch and (if present) front fog lamps switch.</li>
+                    <li>Новая приборная панель с бортовым компьютером.</li>
+                    <li>Система стабилизации ESC/ESP введена как обязательная в некоторых странах (в странах Европы).</li>
+                    <li>Система стабилизации ESC/ESP может быть частично отключена новой кнопкой на панеле с кнопками противотуманных фар.</li>
+                    <li>Задние тормоза теперь имеют отдельные магистрали (ранее единый контур на заднюю ось).</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                &nbsp;
             </div>
         </div>
     </section>
@@ -248,54 +263,125 @@
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>Ничего не известно, кроме того, что эта ревизия существует.</li>
+                    <li>Изменения в типе 11 в данный момент не известны, кроме того, что эта версия существует.</li>
                 </ul>
             </div>
             <div class="col-md-4">
+                &nbsp;
             </div>
         </div>
     </section>
 
     <!-- ================================================================================ -->
 
+    <hr/>
+
     <h2>JB53 / SN415</h2>
     <section>
         <h5>Type 4 (2004 — 2005 Q2)</h5>
-        <ul>
-            <li>Type 4 is the earliest type where a diesel (DDiS) edition appears ("53" in 7th and 8th VIN character positions).</li>
-            <li>Type 4 DDiS vehicles use older 48 kW non-intercooled K9K engine.</li>
-            <li>Type 4 is the last type which uses manually shifted transfer box and old style (1st design) interior (dashboard, instrument panel, steering wheel, seats etc.).</li>
-        </ul>
-
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Первая версия дизельных Jimny.</li>
+                    <li>Используется двигатель K9K 700 (48 кВт) без интеркуллера.</li>
+                    <li>Капот без ноздри.</li>
+                    <li>Едниственная версия дизельных джимов со старым интерьером.</li>
+                    <li>Раздатка 1.0/2.0, конструктивно схожая с электронно-управляемой, но с ручкой передключения.
+                        Понижающий ряд выполнен через промежуточный вал, вместо планетарного редуктора.
+                        Блок управления раздаткой отдельный от блока вакуумных хабов.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJB53V00100001</td><td>... JSAFJB53V00200000</td></tr>
+                </table>
+            </div>
+        </div>
     </section>
     <section>
         <h5>Type 5 (2005 Q2 — 2006 Q1)</h5>
-        <ul>
-            <li>Type 5 is the earliest type which uses electrically ("push-button") shifted transfer box and new style (2nd design) interior (dashboard, instrument panel, steering wheel, seats etc.).</li>
-            <li>Type 5 still uses 1st generation front bumper.</li>
-            <li>Type 5 had a relatively short production time span, approximately only during the second half of 2005.</li>
-            <li>Type 5 DDiS Jimnys still use older 48 kW non-intercooled K9K engine.</li>
-            <li>There are definitely some "Type 5" style Jimnys with VVT engine (1st Gen bumper, new interior) [1] in the UK. The one we can confirm exists is a Spanish built soft-top which is very late registered (2006) so must have been old stock.</li>
-        </ul>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Новая электронно-управляемая раздатка с передаточными 1.0/2.0.
+                        Понижающий ряд выполнен через промежуточный вал, вместо планетарного редуктора.
+                        Блок управления раздаткой отдельный от блока вакуумных хабов.</li>
+                    <li>Новый дизайн интерьера (приборка, торпедо, руль, сиденья и т.п.)</li>
+                    <li>Тип 5 комплектуется первой версией переднего бампера.</li>
+                    <li>Производился очень не продолжительное время, примерно вторую половину 2005 года.</li>
+                    <li>Всё еще используется двигатель K9K 700 (48 кВт) без интеркуллера.</li>
+                    <li>Так называемая "переходная" модель дизельных джимов.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJB53V00200001</td><td>... JSAFJB53V00300000</td></tr>
+                </table>
+            </div>
+        </div>
     </section>
     <section>
         <h5>Type 6 (2006 Q1 — 2008)</h5>
-        <ul>
-            <li>Front bumper changed from 1st to 2nd generation design.</li>
-            <li>For diesel (DDiS) Jimnys, the major change from type 5 to type 6 is the change of engine - from non-intercooled 48 kW K9K 700 to intercooled 63 kW K9K 266.</li>
-            <li>"VVT" M13A petrol engine was possibly introduced in type 5, but it was certainly used in type 6.</li>
-            <li>Table 06 (type 6) can be relied upon only in the "FROM VIN" column. All limits in the "TO VIN" column are currently unknown because type 6 was still the latest production type in the time when the source Suzuki documents were written in Q2 2007.</li>
-        </ul>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Передний бампер нового дизайна (вторая версия).</li>
+                    <li>Новая версия двигателя — старый K9K 700 без интеркуллера (48 кВт) заменен на версию K9K 266 (63 кВт).</li>
+                    <li>Капот с ноздрёй, в которой стоит заглушка. Ноздря необходима так как иначе маслозаливная горловина двигателя упёрлась бы в капот.</li>
+                    <li>Интеркуллер стоит не под ноздрёй капота, а в правой части переднего бампера, за решеткой.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JSAFJB53V00300001</td><td>...</td></tr>
+                </table>
+            </div>
+        </div>
     </section>
     <section>
         <h5>Type 7 (2008 — 2010)</h5>
-        <ul>
-            <li>Type 7 is the last type where DDiS (diesel) Jimnys were produced.</li>
-            <li>4WD controller changed to enable (seemingly) direct shifting from 2WD to 4WD-L and vice versa. The actual technical process still is the same (through 4WD-H), just the sequence is automatic.</li>
-        </ul>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Последняя версия дизельных Джимов. В 2011 году завод Santana обанкротился и был продан в Бразилию,
+                        где производит (производил) с 2012 года 43 кузов в интересных комплектациях с оригинальными бамперами,
+                        шноркелем и яркой цветовой гаммой.</li>
+                    <li>Единый контроллер полного привода 4WD. Позволяет прямое переключение между режимами 2WD и 4WD-L
+                        (как следствие — более сложное удаление вакуумных хабов при установке механических).</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                &nbsp;
+            </div>
+        </div>
     </section>
 
     <!-- ================================================================================ -->
+    <hr/>
+
+    <h2>JB74 / A6G415</h2>
+    <section>
+        <h5>Type 1 (2018.05 +)</h5>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Двигатель K15B</li>
+                    <li>Начало производства в мае 2018</li>
+                    <li>Начало продаж в России (регион E90) в августе 2019</li>
+                    <li>Сервисный мануал 99500-78R00-01E</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-sm table-bordered table-striped">
+                    <tr><td>JS3JB74V#K5100001</td><td>... 999999</td></tr>
+                    <tr><td>JS3JB7D1#K5100001</td><td>... 999999</td></tr>
+                    <tr><td>JSAGJB74V00100001</td><td>... 999999</td></tr>
+                    <tr><td>JSAGJB74VK5100001</td><td>... 999999</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
 
 </div>
 </body>
