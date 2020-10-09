@@ -11,49 +11,10 @@
         @media only screen and (max-width: 768px) {
             body { font-size: 1.2rem !important; }
         }
-        section { margin: 30px 0 50px; }
         table.table { width: auto; }
-        .jimny th, .jimny td { border: 1px solid #cccccc; }
-        .jimny thead th { border-width: 1px; }
-        .jimny thead, .jimny tbody { border: 2px solid #000000 !important; }
+        section { margin: 30px 0 50px; }
+        section > .row > *:last-child tr > td:nth-child(3) { color: #AAA; font-style: italic; }
 
-        .jimny thead tr:last-child th,
-        .jimny thead th[data-type="model"],
-        .jimny thead th[data-type="restyle"],
-        .jimny thead th[data-type="tm-type"],
-        .jimny thead th[data-type="dates"]
-        { border-bottom: 2px solid #000000 !important; }
-
-        .jimny thead th[data-type="model"],
-        .jimny thead th[data-type="restyle"],
-        .jimny thead th[data-type="tm-type"],
-        .jimny thead th[data-type="dates"],
-        .jimny thead th[data-type="m-shaft"],
-        .jimny thead th[data-type="f-shaft"],
-        .jimny thead th[data-type="r-shaft"]
-        { border-left: 2px solid #000000 !important; border-right: 2px solid #000000 !important; }
-
-        .jimny thead th[data-type="m-sku"],
-        .jimny thead th[data-type="f-sku"],
-        .jimny thead th[data-type="r-sku"]
-        { border-left: 2px solid #000000 !important; }
-
-        .jimny thead th[data-type="m-joint"],
-        .jimny thead th[data-type="f-joint"],
-        .jimny thead th[data-type="r-joint"]
-        { border-right: 2px solid #000000 !important; }
-
-        .jimny-1 tr { background: #fa978d; }
-        .jimny-2 tr { background: #fce331; }
-        .jimny-3 tr { background: #88f94f; }
-        .jimny-4 tr { background: #57c1ff; }
-        .jimny-1 th, .jimny-2 th, .jimny-3 th, .jimny-4 th { border: 0; white-space: nowrap; vertical-align: center; }
-
-        .jimny td[data-type="model"]
-        { width: 32%; }
-
-        .jimny td[data-type="model"]
-        { white-space: nowrap; }
         /* @formatter:on */
     </style>
 </head>
@@ -84,7 +45,7 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB23W-100059</td><td>... 125412</td></tr>
+                    <tr><td>JB23W-100059</td><td>~ 125412</td></tr>
                 </table>
             </div>
         </div>
@@ -102,7 +63,7 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB23W-200010</td><td>... 208859</td></tr>
+                    <tr><td>JB23W-200010</td><td>~ 208859</td></tr>
                 </table>
             </div>
         </div>
@@ -122,7 +83,7 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB23W-210001</td><td>... 242251</td></tr>
+                    <tr><td>JB23W-210001</td><td>~ 242251</td></tr>
                 </table>
             </div>
         </div>
@@ -141,7 +102,7 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB23W-310014</td><td>... 348640</td></tr>
+                    <tr><td>JB23W-310014</td><td>~ 348640</td></tr>
                 </table>
             </div>
         </div>
@@ -267,7 +228,11 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB23W-730001</td><td>...</td></tr>
+                    <tr><td>JB23W-730001</td><td>~ 735717</td><td>(2014)</td></tr>
+                    <tr><td>JB23W-735718</td><td>~ 749265</td><td>(2015)</td></tr>
+                    <tr><td>JB23W-749265</td><td>~ 762531</td><td>(2016)</td></tr>
+                    <tr><td>JB23W-762532</td><td>~ 778369</td><td>(2017)</td></tr>
+                    <tr><td>JB23W-778370</td><td>~ 782034</td><td>(2018)</td></tr>
                 </table>
             </div>
         </div>
@@ -305,7 +270,7 @@
                     <tr><td>JS3JB33V#X4100001</td><td>...</td></tr>
                     <tr><td>JS3JB33V#Y4100001</td><td>...</td></tr>
                     <tr><td>JB33V-100001</td><td>...</td></tr>
-                    <tr><td>JB33W-100001</td><td>... 116353</td></tr>
+                    <tr><td>JB33W-100001</td><td>~ 116353</td></tr>
                 </table>
             </div>
         </div>
@@ -537,11 +502,17 @@
                     <li>Задние тормоза теперь имеют отдельные магистрали (ранее единый контур на заднюю ось).</li>
                     <li>TPMS и индикатор переключения передачи у версий с МКПП.</li>
                     <li>Новая обивка сидений.</li>
+                    <li>Последний тип для Японского рынка? (Type 9 так как там есть пропуск в нумерации)</li>
                 </ul>
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB43W-580001</td><td>...</td></tr>
+                    <tr><td>JSAFJB43V00580001</td><td>...</td></tr>
+                    <tr><td>JB43W-580001</td><td>~ 580642</td><td>(2014)</td></tr>
+                    <tr><td>JB43W-580643</td><td>~ 581924</td><td>(2015)</td></tr>
+                    <tr><td>JB43W-581925</td><td>~ 583043</td><td>(2016)</td></tr>
+                    <tr><td>JB43W-583044</td><td>~ 584587</td><td>(2017)</td></tr>
+                    <tr><td>JB43W-584588</td><td>~ 584701</td><td>(2018)</td></tr>
                 </table>
             </div>
         </div>
@@ -553,7 +524,7 @@
                 <ul>
                     <li>Изменения в типе 11 в данный момент не известны, кроме того, что эта версия существует (согласно BigJimny).</li>
                     <li>Производство завершилось в феврале 2018 года на заводе Iwata.</li>
-                    <li>В подкапотной табличке тип 11 обозначается J1 вместо K (Type 1,2,3,4,5,6,7,8,9,10 = A,B,C,D,E,F,G,H,I,J).
+                    <li>В подкапотной табличке тип 11 обозначается 1 вместо K (Type 1,2,3,4,5,6,7,8,9,10,11 = A,B,C,D,E,F,G,H,I,J,K).
                         Символ располагается в нижней строчке, в конце, перед номером региона (см. таблицу регионов Suzuki).</li>
                 </ul>
             </div>
@@ -586,8 +557,8 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JSAFJB53V00100001</td><td>... JSAFJB53V00200000</td></tr>
-                    <tr><td>VSEFJB53C00100001</td><td>... </td></tr>
+                    <tr><td>JSAFJB53V00100001</td><td>... 200000</td></tr>
+                    <tr><td>VSEFJB53C00100001</td><td>...</td></tr>
                 </table>
             </div>
         </div>
@@ -609,10 +580,10 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JSAFJB53V00200001</td><td>... JSAFJB53V00300000</td></tr>
-                    <tr><td>VSEFJB53C00101510</td><td>... VSEFJB53C00101527</td></tr>
-                    <tr><td>VSEFJB53C00103296</td><td></td></tr>
-                    <tr><td>VSEFJB53C00104047</td><td>... VSEFJB53C00104051</td></tr>
+                    <tr><td>JSAFJB53V00200001</td><td>... 300000</td></tr>
+                    <tr><td>VSEFJB53C00101510</td><td>... 101527</td></tr>
+                    <tr><td>VSEFJB53C00103296</td><td>...</td></tr>
+                    <tr><td>VSEFJB53C00104047</td><td>... 104051</td></tr>
                     <tr><td>VSEFJB53C00160001</td><td>...</td></tr>
                 </table>
             </div>
@@ -661,38 +632,12 @@
 
     <h2>JB64</h2>
     <section>
-        <h5>Type 1 (2018 +)</h5>
-        <div class="row">
-            <div class="col-sm-8">
-                <ul>
-                    <li>Двигатель R06A.</li>
-                    <li>Начало производства в 2018.</li>
-                    <li>Начало продаж в Японии в июле 2018?</li>
-                    <li>Механическая раздатка конструктивно схожая с прошлой электронно-управляемой. Датчик понижайки перенесли. Датчик скорости отсутствует (скорость снимается с датчиков АБС на колёсах), однако имеется отлитое отверстие под его установку (вероятно его можно рассверлить для датчика при установке раздатки на прошлое поколение). Шестерня скорости заменена на втулку-проставку. Сапун перенесён на крышку картера с корпуса.</li>
-                    <li>МКПП/АКПП конструктивно те же, что и на прошлом поколении с рестайлинга. Изменения в колоколах под новый мотор и вероятно внутренние оптимизации. Задняя лапа короче чем у рестайла, но длиннее чем у дорестайла третьего поколения.</li>
-                    <li>Комплектации XG / XL / XC.</li>
-                    <li>В японских комплектациях система Start-Stop.</li>
-                </ul>
-            </div>
-            <div class="col-sm-4">
-                <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB64W-100001</td><td>...</td></tr>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- -------------------------------------------------------------------------------- -->
-    <hr/>
-
-    <h2>JB64</h2>
-    <section>
         <h5>Type 1 (2018.07 +)</h5>
         <div class="row">
             <div class="col-sm-8">
                 <ul>
                     <li>Модель для внутреннего рынка Японии.</li>
-                    <li>Двигатель турбированный R06A (64 лс, 96 Н•м).</li>
+                    <li>Двигатель турбированный трехцилиндровый R06A (64 лс, 96 Н•м).</li>
                     <li>Начало производства в 2017 (JB64W-100001~100057).</li>
                     <!-- http://www.jama.or.jp/user/frame_number/pdf/2017/2017_chassis_suzuki.pdf -->
                     <li>Начало продаж в июле 2018.</li>
@@ -714,7 +659,12 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JB64W-100001</td><td>...</td></tr>
+                    <table class="table table-sm table-bordered table-striped">
+                        <tr><td>JB64W-100001</td><td>~ 100057</td><td>(2017)</td></tr>
+                        <tr><td>JB64W-100058</td><td>~ 115089</td><td>(2018)</td></tr>
+                        <tr><td>JB64W-115090</td><td>~ 145734</td><td>(2019)</td></tr>
+                        <tr><td>JB64W-145735</td><td>...</td><td>(2020)</td></tr>
+                    </table>
                 </table>
             </div>
         </div>
@@ -725,13 +675,15 @@
 
     <h2>JB74 / A6G415</h2>
     <section>
-        <h5>Type 1 (2018.05 +)</h5>
+        <h5>Type 1 (2018.07 +)</h5>
         <div class="row">
             <div class="col-sm-8">
                 <ul>
                     <li>Модель называется Jimny Sierra в Японии.</li>
-                    <li>Двигатель K15B.</li>
-                    <li>Начало производства в мае 2018.</li>
+                    <li>Двигатель атмосферный четырёхцилиндровый K15B (102 лс, 130 Н•м).</li>
+                    <li>Начало производства в 2017 (JB74W-100001~100026).</li>
+                    <!-- http://www.jama.or.jp/user/frame_number/pdf/2017/2017_chassis_suzuki.pdf -->
+                    <li>Начало продаж в июле 2018.</li>
                     <li>Начало продаж в России (регион E90) в августе 2019.</li>
                     <li>Сервисный мануал 99500-78R00-01E.</li>
                     <li>Механическая раздатка конструктивно схожая с прошлой электронно-управляемой. Датчик понижайки
@@ -750,11 +702,14 @@
             </div>
             <div class="col-sm-4">
                 <table class="table table-sm table-bordered table-striped">
-                    <tr><td>JS3JB74V#K5100001</td><td>... 999999</td></tr>
-                    <tr><td>JS3JB7D1#K5100001</td><td>... 999999</td></tr>
-                    <tr><td>JSAGJB74V00100001</td><td>... 999999</td></tr>
-                    <tr><td>JSAGJB74VK5100001</td><td>... 999999</td></tr>
-                    <tr><td>JB74W-100001</td><td>...</td></tr>
+                    <tr><td>JS3JB74V#K5100001</td><td>...</td></tr>
+                    <tr><td>JS3JB7D1#K5100001</td><td>...</td></tr>
+                    <tr><td>JSAGJB74V00100001</td><td>...</td></tr>
+                    <tr><td>JSAGJB74VK5100001</td><td>...</td></tr>
+                    <tr><td>JB74W-100001</td><td>~ 100026</td><td>(2017)</td></tr>
+                    <tr><td>JB74W-100027</td><td>~ 104547</td><td>(2018)</td></tr>
+                    <tr><td>JB74W-104548</td><td>~ 115212</td><td>(2019)</td></tr>
+                    <tr><td>JB74W-115213</td><td>...</td><td>(2020)</td></tr>
                 </table>
             </div>
         </div>
